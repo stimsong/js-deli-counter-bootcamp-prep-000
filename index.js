@@ -19,6 +19,7 @@ function currentLine(katzDeliLine) {
   }
   
   var currLineNumAndName = [];
+  
   for ( var i = 0; i<katzDeliLine.length; i++ ) {
     currLineNumAndName.push(i+1 + ". " + katzDeliLine(i) );
   }
